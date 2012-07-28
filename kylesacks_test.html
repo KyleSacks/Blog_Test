@@ -12,166 +12,155 @@
 				
 				@import url(http://dl.dropbox.com/u/2661888/Blog_Test/kylesackstest.css);
 				
-				</style>
+	</style>
 		
 			
 			<!--TYPEKIT-->
 			<script type="text/javascript" src="http://use.typekit.com/mun3lmv.js"></script>
 			<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 			
-			<!--SCROLLING-->
-			<!--[if !IE]><!-->
-			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-			<script type="text/javascript" src="http://dl.dropbox.com/u/2661888/vertical-parallax.js"></script>
-			<!--<![endif]-->
-		
-				
-		</head>
-		<body>
-		<div id="head">
-			<div class="container">
-								
-				<div id="nav">
-				<a style="font-weight: bold; margin-right: 10px; color: #426b83;" href="http://kylesacks.net">Kyle Sacks</a> | <a style="margin-right: 20px; margin-left: 10px;" href="http://kylesacks.net/aboutme">About</a> <a style="margin-right: 20px;" href="{rss}">RSS</a> <a style="margin-right: 20px;" href="/archive">Archive</a> 
-				</div>
-				
+							
+	</head>
+	<body>
+	<div id="head">
+		<div class="container">
+							
+			<div id="nav">
+			<a style="font-weight: bold; margin-right: 10px; color: #426b83;" href="http://kylesacks.net">Kyle Sacks</a> | <a style="margin-right: 20px; margin-left: 10px;" href="http://kylesacks.net/aboutme">About</a> <a style="margin-right: 20px;" href="{rss}">RSS</a> <a style="margin-right: 20px;" href="/archive">Archive</a> 
 			</div>
+			
 		</div>
+	</div>
+	
+	<div id="wrapper">
 		
-		<div id="wrapper">
-			
-				<!--<div id="descrip">
-				   {block:Description}
-				    <p id="description">{Description}</p>
-				   {/block:Description}
-			    </div>-->
-				<div id="content">
-			            {block:Posts}
-			                
-			                {block:Date}
-			                
-			                <div class="date">
-			                		<a href="{Permalink}">{MonthNumberWithZero}/{DayOfMonthWithZero}/{Year}</a>
-			                </div>
-			                
-			                {/block:Date}
-			                
-			                {block:Text}
-			                    <div class="post text">
-			                        {block:Title}
-			                            <h3>{Title}</h3>
-			                        {/block:Title}
-			
-			                        {Body}
-			                    </div>
-			                {/block:Text}
-			
-			                {block:Photo}
-			                    <div class="post photo">
-			                    	{LinkOpenTag}
-			                        <a href="{PhotoURL-HighRes}"><img src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/></a>
-									{LinkCloseTag}
-									
-			                        {block:Caption}
-			                            <div class="caption">{Caption}</div>
-			                        {/block:Caption}
-			                    </div>
-			                {/block:Photo}
-			
-			                {block:Photoset}
-			                    <div class="post photoset">
-			                        {Photoset-500}
-			
-			                        {block:Caption}
-			                            <div class="caption">{Caption}</div>
-			                        {/block:Caption}
-			                    </div>
-			                {/block:Photoset}
-			
-			                {block:Quote}
-			                    <div class="post quote">
-			                        "{Quote}"
-			
-			                        {block:Source}
-			                            <div class="source">&mdash; {Source}</div>
-			                        {/block:Source}
-			                    </div>
-			                {/block:Quote}
-			
-			                {block:Link}
-			                    <div class="post link">
-			                        <a href="{URL}" class="link" {Target}>{Name}</a>
-			
-			                        {block:Description}
-			                            <div class="description">{Description}</div>
-			                        {/block:Description}
-			                    </div>
-			                {/block:Link}
-			
-			                {block:Chat}
-			                    <div class="post chat">
-			                        {block:Title}
-			                            <h3><a href="{Permalink}">{Title}</a></h3>
-			                        {/block:Title}
-			
-			                        <ul class="chat">
-			                            {block:Lines}
-			                                <li class="{Alt} user_{UserNumber}">
-			                                    {block:Label}
-			                                        <span class="label">{Label}</span>
-			                                    {/block:Label}
-			
-			                                    {Line}
-			                                </li>
-			                            {/block:Lines}
-			                        </ul>
-			                    </div>
-			                {/block:Chat}
-			
-			                {block:Video}
-			                    <div class="post video">
-			                        {Video-500}
-			
-			                        {block:Caption}
-			                            <div class="caption">{Caption}</div>
-			                        {/block:Caption}
-			                    </div>
-			                {/block:Video}
-			
-			                {block:Audio}
-			                    <div class="post audio">
-			                    	{block:AlbumArt}
-			                    		<div class="a_art"><img src="{AlbumArtURL}"></div>
-			                    	{/block:AlbumArt}
-			                        <div class="a_play">{AudioPlayerGrey}</div>
-			
-			                        {block:Caption}
-			                            <div class="caption">{Caption}</div>
-			                        {/block:Caption}
-			                    </div>
-			                {/block:Audio}
-			                
-			                
-			                
-			            {/block:Posts}
-			            
-			            <div id="footer">
-			            	{block:Pagination}
-			                        {block:PreviousPage}
-			                            <a href="{PreviousPage}">&#171;</a>
-			                        {/block:PreviousPage}
-			                        {CurrentPage} of {TotalPages}
-			                        {block:NextPage}
-			                            <a href="{NextPage}">&#187;</a>
-			                        {/block:NextPage}
-			                {/block:Pagination}
-			                <!--<div id="rss_ar">
-			                	<a href="http://kylesacks.net/aboutme">About</a> — <a href="{rss}">RSS</a> — <a href="/archive">Archive</a> 
-		                	</div>-->
+			<div id="content">
+		            {block:Posts}
+		                
+		                {block:Date}
+		                
+		                <div class="date">
+		                		<a href="{Permalink}">{MonthNumberWithZero}/{DayOfMonthWithZero}/{Year}</a>
 		                </div>
-		            </div>
-			            
-		            </div>
+		                
+		                {/block:Date}
+		                
+		                {block:Text}
+		                    <div class="post text">
+		                        {block:Title}
+		                            <h3>{Title}</h3>
+		                        {/block:Title}
+		
+		                        {Body}
+		                    </div>
+		                {/block:Text}
+		
+		                {block:Photo}
+		                    <div class="post photo">
+		                    	{LinkOpenTag}
+		                        <a href="{PhotoURL-HighRes}"><img src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/></a>
+								{LinkCloseTag}
+								
+		                        {block:Caption}
+		                            <div class="caption">{Caption}</div>
+		                        {/block:Caption}
+		                    </div>
+		                {/block:Photo}
+		
+		                {block:Photoset}
+		                    <div class="post photoset">
+		                        {Photoset-500}
+		
+		                        {block:Caption}
+		                            <div class="caption">{Caption}</div>
+		                        {/block:Caption}
+		                    </div>
+		                {/block:Photoset}
+		
+		                {block:Quote}
+		                    <div class="post quote">
+		                        "{Quote}"
+		
+		                        {block:Source}
+		                            <div class="source">&mdash; {Source}</div>
+		                        {/block:Source}
+		                    </div>
+		                {/block:Quote}
+		
+		                {block:Link}
+		                    <div class="post link">
+		                        <a href="{URL}" class="link" {Target}>{Name}</a>
+		
+		                        {block:Description}
+		                            <div class="description">{Description}</div>
+		                        {/block:Description}
+		                    </div>
+		                {/block:Link}
+		
+		                {block:Chat}
+		                    <div class="post chat">
+		                        {block:Title}
+		                            <h3><a href="{Permalink}">{Title}</a></h3>
+		                        {/block:Title}
+		
+		                        <ul class="chat">
+		                            {block:Lines}
+		                                <li class="{Alt} user_{UserNumber}">
+		                                    {block:Label}
+		                                        <span class="label">{Label}</span>
+		                                    {/block:Label}
+		
+		                                    {Line}
+		                                </li>
+		                            {/block:Lines}
+		                        </ul>
+		                    </div>
+		                {/block:Chat}
+		
+		                {block:Video}
+		                    <div class="post video">
+		                        {Video-500}
+		
+		                        {block:Caption}
+		                            <div class="caption">{Caption}</div>
+		                        {/block:Caption}
+		                    </div>
+		                {/block:Video}
+		
+		                {block:Audio}
+		                    <div class="post audio">
+		                    	{block:AlbumArt}
+		                    		<div class="a_art"><img src="{AlbumArtURL}"></div>
+		                    	{/block:AlbumArt}
+		                        <div class="a_play">{AudioPlayerGrey}</div>
+		
+		                        {block:Caption}
+		                            <div class="caption">{Caption}</div>
+		                        {/block:Caption}
+		                    </div>
+		                {/block:Audio}
+		                
+		                
+		                
+		            {/block:Posts}
+		            
+		            <div id="footer">
+		            	{block:Pagination}
+		                        {block:PreviousPage}
+		                            <a href="{PreviousPage}">&#171;</a>
+		                        {/block:PreviousPage}
+		                        {CurrentPage} of {TotalPages}
+		                        {block:NextPage}
+		                            <a href="{NextPage}">&#187;</a>
+		                        {/block:NextPage}
+		                {/block:Pagination}
+		                <!--<div id="rss_ar">
+		                	<a href="http://kylesacks.net/aboutme">About</a> — <a href="{rss}">RSS</a> — <a href="/archive">Archive</a> 
+	                	</div>-->
+	                </div>
 	            </div>
-		</body>
-		</html>
+		            
+	            </div>
+	        </div>
+	</body>
+	</html>
