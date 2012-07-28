@@ -74,8 +74,8 @@ p {
 
 #head{
 	
-	margin-bottom: 30px;
-	height: 208px;
+	margin-bottom: 60px;
+	height: 88px;
 	width: auto;
 	position: relative
 	
@@ -83,7 +83,7 @@ p {
 
 #head .container {
 	width: 700px;
-	height: 208px;
+	height: 88px;
 	margin: 0 auto;
 	
 	}
@@ -103,6 +103,15 @@ p {
 	border: none;
 	color: #3A353F;
 	}
+	
+#head .container a:hover {
+	color: #3A353F;
+	-moz-transition: 0.3s ease-in;
+	-webkit-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	}
+
 
 
 
@@ -257,7 +266,7 @@ sup a {
 
 .text h3{
 	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
-	font-size: 36px;
+	font-size: 28px;
 	font-weight: bold;
 	line-height: 34px;
 	margin-bottom: 20px;
@@ -330,6 +339,8 @@ sup a {
 	text-decoration: none;
 	border: none;
 	}
+	
+
 
 
 /*FOOTNOTES*/
