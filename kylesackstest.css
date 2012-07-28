@@ -77,11 +77,7 @@ p {
 	margin-bottom: 30px;
 	height: 208px;
 	width: auto;
-/*	background: url ('http://dl.dropbox.com/u/2661888/stars_fixed.png') repeat;*/
-	background:	url('http://dl.dropbox.com/u/2661888/stars_back.png') 0 0 repeat,
-				url('http://dl.dropbox.com/u/2661888/stars_front.png') 0 0 repeat,
-				url('http://dl.dropbox.com/u/2661888/stars_mid.png') 0 0 repeat #F8F8F8;
-	position:relative
+	position: relative
 	
 	}
 
@@ -254,6 +250,7 @@ sup a {
 .link .description{
 	margin-top: 20px;
 	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
+	font-weight: normal;
 	font-size: 18px;
 	line-height: 28px;
 	}
@@ -323,7 +320,7 @@ sup a {
 
 #nav {
 	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	float: right;
 	position:absolute; bottom:0;
 	margin: 10px 0px 10px 0px;
