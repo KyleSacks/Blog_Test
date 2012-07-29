@@ -54,12 +54,12 @@ body {
 	}
 
 ::selection {
-	background:#426b83;
+	background:#6383A0;
 	color:#F8F8F8;
 	}
 
 ::-moz-selection {
-	background-color:#426b83;
+	background-color:#6383A0;
 	color:#F8F8F8;
 	}
 
@@ -126,7 +126,7 @@ p {
 
 a {
 	border-bottom: 1px solid;
-	color: #426b83;
+	color: #6383A0;
 	text-decoration: none;
 	-moz-transition: 0.3s ease-out;
 	-webkit-transition: 0.3s ease-out;
@@ -243,7 +243,7 @@ sup a {
 .link a{
 	padding-bottom: 3px;
 	border-bottom: 1px solid;
-	color: #426b83;
+	color: #6383A0;
 	}
 
 .link a:hover{
