@@ -53,9 +53,9 @@ table {
 
 
 body {
-	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
-	font-size: 18px;
-	line-height: 28px;
+	font-family: "proxima-nova", Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
 	color: #3A353F;
 	background: #F8F8F8;
 	}
@@ -98,7 +98,7 @@ p {
 #head .container .masthead {
 	float: left;
 	margin-top: 103px;
-	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
+	font-family: "proxima-nova", Helvetica, sans-serif;
 	font-weight: bold;
 	color: #3A353F;
 	font-size: 100px;
@@ -151,7 +151,8 @@ a:hover, a:focus {
 
 sup, sub {
 	line-height: 0;
-	font-size: 15px;
+	font-size: 12px;
+	font-weight: bold;
 	} 
 
 sup a {
@@ -165,7 +166,7 @@ sup a {
 	}
 
 .post blockquote{
-	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
+	font-family: "proxima-nova", Helvetica, sans-serif;
 	border-left: 1px solid #C4C4C4;
 	margin: 10px 10px 10px 7px;
 	padding: 0px 10px 0px 10px;
@@ -204,16 +205,16 @@ sup a {
 
 .quote{
 	font-family: "Crimson Text", serif;
-	font-size: 32px;
+	font-size: 24px;
 	font-weight: 400;
 	font-style: italic;
-	line-height: 40px;
+	line-height: 35px;
 	width: 700px;
 	}
 
 .quote .source{
-	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
-	font-size: 22px;
+	font-family: "proxima-nova", Helvetica, sans-serif;
+	font-size: 14px;
 	font-weight: bold;
 	font-style: normal;
 	margin-top: 10px;
@@ -240,9 +241,9 @@ sup a {
 
 
 .link{
-	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
+	font-family: "proxima-nova", Helvetica, sans-serif;
 	font-weight: bold;
-	font-size: 28px;
+	font-size: 20px;
 	line-height: 34px;
 	width: 700px;
 	}
@@ -265,15 +266,15 @@ sup a {
 
 .link .description{
 	margin-top: 20px;
-	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
+	font-family: "proxima-nova", Helvetica, sans-serif;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 28px;
+	font-size: 14px;
+	line-height: 20px;
 	}
 
 .text h3{
-	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
-	font-size: 28px;
+	font-family: "proxima-nova", Helvetica, sans-serif;
+	font-size: 20px;
 	font-weight: bold;
 	line-height: 34px;
 	margin-bottom: 20px;
@@ -306,8 +307,8 @@ sup a {
 	}
 
 .date a {
-	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
-	font-size: 12px;
+	font-family: "proxima-nova", Helvetica, sans-serif;
+	font-size: 10px;
 	color: #9B9B9B;
 	text-decoration: none;
 	border: none;
@@ -324,7 +325,7 @@ sup a {
 
 #footer{
 	width: 240px;
-	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
+	font-family: "proxima-nova", Helvetica, sans-serif;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
@@ -335,7 +336,7 @@ sup a {
 	}
 
 #nav {
-	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
+	font-family: "proxima-nova", Helvetica, sans-serif;
 	font-size: 16px;
 	float: right;
 	position:absolute; bottom:0;
@@ -361,8 +362,8 @@ sup a {
 */
 .footnotes {
 	margin-left: 30px;
-	font-family: "ff-meta-web-pro", Helvetica, sans-serif;
-	font-size: 13px;
+	font-family: "proxima-nova", Helvetica, sans-serif;
+	font-size: 11px;
 	line-height: 20px;
 	padding-right: 400px;
 	margin-bottom: 6px;
@@ -390,7 +391,7 @@ sup a {
 
 a.fn {
 	border-bottom: none;
-	font-size: 13px;
+	font-size: 10px;
 	padding-top: 0;
 	margin-top: 0;
 	vertical-align: super;
