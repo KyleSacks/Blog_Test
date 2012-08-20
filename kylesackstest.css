@@ -89,7 +89,7 @@ p {
 	}
 
 #head .container {
-	width: 700px;
+	width: 500px;
 	height: 88px;
 	margin: 0 auto;
 	
@@ -127,7 +127,7 @@ p {
 
 
 #content {
-	width: 700px;
+	width: 500px;
 	margin: 0 auto;
 	}
 
@@ -177,15 +177,15 @@ sup a {
 
 
 .photo{
-	width: 700px;
+	width: 500px;
 	}
 
 .photo img {
-	width: 700px;
+	width: 500px;
 	}
 
 .photo .caption{
-	max-width: 700px;
+	max-width: 500px;
 	margin-top: 20px;
 	}
 
@@ -209,7 +209,7 @@ sup a {
 	font-weight: 400;
 	font-style: italic;
 	line-height: 35px;
-	width: 700px;
+	width: 500px;
 	}
 
 .quote .source{
@@ -245,7 +245,7 @@ sup a {
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 34px;
-	width: 700px;
+	width: 500px;
 	}
 
 .link a{
@@ -365,13 +365,13 @@ sup a {
 	font-family: "proxima-nova", Helvetica, sans-serif;
 	font-size: 11px;
 	line-height: 20px;
-	padding-right: 400px;
-	margin-bottom: 6px;
+/* 	padding-right: 400px;
+ */	margin-bottom: 6px;
 	}
 
 .footnotes hr {
 	border-top: 1px solid #C4C4C4;
-	margin-right: 700px;
+	margin-right: 500px;
 	margin-bottom: 15px;
 	}
 
